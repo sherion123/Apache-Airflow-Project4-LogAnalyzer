@@ -1,4 +1,10 @@
 # Springboard Project 4: Airflow Log Analyzer
+UPDATE 08/25/2025: Now that my scheduled DAG has successfully executed, here is the expected screenshot for what the log should look  once the commands in the  How to Use Section has been executed.
+
+<img width="1277" height="368" alt="image" src="https://github.com/user-attachments/assets/499ffb41-f7cc-44d0-804a-2a8954cf5888" />
+
+
+
 Note: I built this project over the weekend, and my main Data Pipeline DAG has not executed yet because of its schedule. For demonstration, the log analyzer was tested on the logs of another simple DAG I created (dag_trial.py, where welcome_dag is created). That DAG is shown in the screenshots below but not included in this repo. The important part is that the log analyzer code itself is generic and will work on any DAG logs inside the logs directory.
 
 <img width="466" height="521" alt="image" src="https://github.com/user-attachments/assets/8ae3557e-d8c4-4f22-8428-1ecaa97e18f5" />
